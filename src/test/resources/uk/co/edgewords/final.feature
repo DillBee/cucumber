@@ -15,4 +15,3 @@ Feature: final
       When I add the item to my basket
       And I check out my basket
       Then I have bought the item
-      

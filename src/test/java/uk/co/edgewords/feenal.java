@@ -108,7 +108,6 @@ public class feenal {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#post-6 > div > div > div > section.woocommerce-order-details > h2")));
 
         String thing = driver.findElement(By.cssSelector("#post-6 > div > div > div > section.woocommerce-order-details > h2")).getText();
-        System.out.println(thing);
         MatcherAssert.assertThat(thing, containsString("Order received"));
     }
 
